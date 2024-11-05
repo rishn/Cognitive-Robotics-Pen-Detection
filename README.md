@@ -20,7 +20,19 @@ This project leverages the YOLO model for detecting objects in images. The model
 To execute the project, follow the steps outlined in the provided Jupyter notebook. You can also run the notebook in Google Colab for easy access and execution.
 
 ## Results
-The YOLO model successfully detects objects, and the results are visualized with bounding boxes on images. Here are some examples of the output:
+The YOLO model successfully detects objects, and the results are visualized with bounding boxes on images. The following performance metrics were observed:
+- **Precision**: 0.80
+- **Recall**: 0.67
+- **Accuracy**: 0.57
+
+### Confusion Matrix
+|                         | Predicted: No Object | Predicted: Object |
+|-------------------------|----------------------|--------------------|
+| **Actual: No Object**   | 4                    | 15                |
+| **Actual: Object**      | 18                   | 0                 |
+
+### Example Outputs
+Here are some examples of the model's predictions:
 
 <img src="pred1.png" alt="Predicted Image 1" width="500"/>
 <img src="pred2.png" alt="Predicted Image 2" height="700"/>
