@@ -1,4 +1,4 @@
-# Cognitive-Robotics-Pen-Detection
+# Cognitive Robotics Pen Detection
 
 ## Aim
 To build and evaluate an object detection system utilizing the YOLO (You Only Look Once) model for real-time object detection.
